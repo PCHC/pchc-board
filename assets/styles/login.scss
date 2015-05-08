@@ -1,0 +1,9 @@
+.login h1 a {
+    background: url(../images/board-login-logo.png);
+    background: none, url(../images/board-login-logo.svg);
+    background-size: contain;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 145px;
+}

@@ -17,6 +17,11 @@
         "styles/editor-style.scss"
       ]
     },
+    "login.css": {
+      "files": [
+        "styles/login.scss"
+      ]
+    },
     "jquery.js": {
       "bower": ["jquery"]
     },
