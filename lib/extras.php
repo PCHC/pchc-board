@@ -31,3 +31,13 @@ function excerpt_more() {
   return ' &hellip; <a href="' . get_permalink() . '">' . __('Continued', 'sage') . '</a>';
 }
 add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
+
+function custom_login_logo_url() {
+    return home_url();
+}
+add_filter( 'login_headerurl', __NAMESPACE__ . '\\custom_login_logo_url' );
+
+function custom_login_logo_url_title() {
+    return 'PCHC Board of Directors';
+}
+add_filter( 'login_headertitle', __NAMESPACE__ . '\\custom_login_logo_url_title' );
